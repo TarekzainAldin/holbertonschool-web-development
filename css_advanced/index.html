@@ -3,211 +3,344 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap" rel="stylesheet">    <title>Document</title>
 </head>
 <body>
+    <div class="container">
     <!-- Start Header -->
     <header>
         <!-- Link element with an image inside -->
-        <a href="#"><img src="" alt="Logo"> Logo</a>
+        <a href="#"><img src="smileschoolalpha.png"> </a>
 
         <!-- Block of 3 link elements -->
-        <div>
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
+        <div class="header-links">
+            <a href="#">COUESES</a>
+            <a href="#">PRICING</a>
+            <a href="#">LOGIN</a>
         </div>
     </header>
     <!-- End Header -->
 
     <!-- Start Main Section -->
-    <main>
+    <main >
         <!-- Section Element -->
-        <section>
+        <section id="banner">
             <!-- First Block -->
-            <div>
+            <div class="top-banner">
                 <!-- Heading Tag (Level 1) -->
-                <h1>Title</h1>
+                <h1>Get schooled </h1>
                 <!-- Text Element -->
-                <p>3 Words</p>
+                <p>SMILES GRIN LAUGH</p>
                 <!-- Button Tag -->
-                <button>Button</button>
+                <button>REGISTER FOR FREE</button>
             </div>
 
             <!-- Second Block -->
-            <div>
+            <div class="down-banner">
                 <!-- Heading Tag (Level 2) -->
-                <h2>Title</h2>
+                <h2>
+					<span>Learn</span> from the pros
+				</h2>
 
                 <!-- Block Containing 4 Blocks -->
-                <div>
+                <div class="banner-avatar">
                     <!-- Block 1 -->
-                    <div>
-                        <img src="" alt="Image 1">
-                        <h3>Name</h3>
-                        <p>Subtitle</p>
+                    <div class="avatar1">
+                        <img src="avatar1.png" alt="">
+                        <h3>Philip Massey</h3>
+                        <p>"Smile of the year"<br>2018-2019</p>
                     </div>
                     <!-- Block 2 -->
-                    <div>
-                        <img src="" alt="Image 2">
-                        <h3>Name</h3>
-                        <p>Subtitle</p>
+                    <div class="avatar2">
+                        <img src="avatar2.png" alt="Image 2">
+                        <h3>Nannie Lawrence</h3>
+                        <p>Best "little smile"<br> 2017</p>
                     </div>
                     <!-- Block 3 -->
-                    <div>
-                        <img src="" alt="Image 3">
-                        <h3>Name</h3>
-                        <p>Subtitle</p>
+                    <div class="avatar3">
+                        <img src="avatar3.png" alt="Image 3">
+                        <h3>Bruce Walters</h3>
+                        <p>Best "Friend smile" <br>live performance 2019</p>
                     </div>
                     <!-- Block 4 -->
-                    <div>
-                        <img src="" alt="Image 4">
-                        <h3>Name</h3>
-                        <p>Subtitle</p>
+                    <div class="avatar4">
+                        <img src="avatar4.png" alt="Image 4">
+                        <h3>Henry Hughes</h3>
+                        <p>"24h smiles" winner<br> 2016-2019</p>
                     </div>
                 </div>
-            </div>
+           
         </section>
-
+    </div>
+        <div class="strip"></div>
         <!-- Quote Section -->
-        <section>
-            <div>
+        <section class="quote">
+            <div class="qoute-block">
                 <!-- Image for the Quote -->
-                <img src="" alt="Quote Image">
-                <div>
+                <img src="quote.png" alt="Quote Image">
+                <div class="author-block">
                     <!-- Blockquote -->
-                    <blockquote>"Quote"</blockquote>
+                    <blockquote>"«Those tutorials are concise and go straight to the point. I can't think of a better place to learn smiling. And it's so fun!"</blockquote>
                     <!-- Quote Author -->
-                    <p><strong>Author</strong></p>
+                    <span><strong>Author</strong></span>
                     <!-- Additional Text -->
-                    <p>Subtitle</p>
+                    <p>wither presenter</p>
                 </div>
             </div>
         </section>
 
         <!-- Video Section -->
-        <section>
-            <h1>Video Gallery</h1>
+        <section class="vedios">
+            <h1>Most <span>popular </span>tutorials</h1>
             <!-- Block Containing 4 Video Blocks -->
-            <div>
+            <div class="vedios-container">
                 <!-- Video Block 1 -->
-                <div>
-                    <img src="" alt="Video 1">
-                    <h2>Title</h2>
-                    <p>Text</p>
-                </div>
+                <div class="video-box-1">
+					<img src="video1.png" alt="woman picture" class="video-mini">
+					<h2>
+						Diagonal Smile
+					</h2>
+					<p class="description">
+						Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.
+					</p>
+					<div class="video-box-1-middle">
+						<img src="avatar-videos.png" alt="man picture">
+						<h3>
+							Phillip Massey
+						</h3>
+					</div>
+					<div class="video-box-1-bottom">
+						<div class="rating">
+							<img src="star.png" alt="purple star">
+							<img src="star.png" alt="purple star">
+							<img src="star.png" alt="purple star">
+							<img src="star.png" alt="purple star">
+							<img src="whitestar.png" alt="white star">
+						</div>
+						<p class="time">
+							8 min
+						</p>
+					</div>
+				</div>
                 <!-- Video Block 2 -->
-                <div>
-                    <img src="" alt="Video 2">
-                    <h2>Title</h2>
-                    <p>Text</p>
-                </div>
+                <div class="video-box-2">
+					<img src="video2.png" alt="woman picture" class="video-mini">
+					<h2>
+						Sad Smile
+					</h2>
+					<p class="description">
+						Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.
+					</p>
+					<div class="video-box-2-middle">
+						<img src="avatar-videos.png" alt="man picture">
+						<h3>
+							Phillip Massey
+						</h3>
+					</div>
+					<div class="video-box-2-bottom">
+						<div class="rating">
+							<img src="star.png" alt="purple star">
+							<img src="star.png" alt="purple star">
+							<img src="star.png" alt="purple star">
+							<img src="star.png" alt="purple star">
+							<img src="whitestar.png" alt="white star">
+						</div>
+						<p class="time">
+							8 min
+						</p>
+					</div>
+				</div>
                 <!-- Video Block 3 -->
-                <div>
-                    <img src="" alt="Video 3">
-                    <h2>Title</h2>
-                    <p>Text</p>
-                </div>
+                <div class="video-box-3">
+					<img src="video3.png" alt="man picture" class="video-mini">
+					<h2>
+						Natural Smile
+					</h2>
+					<p class="description">
+						Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.
+					</p>
+					<div class="video-box-3-middle">
+						<img src="avatar-videos.png" alt="man picture">
+						<h3>
+							Phillip Massey
+						</h3>
+					</div>
+					<div class="video-box-3-bottom">
+						<div class="rating">
+							<img src="star.png" alt="purple star">
+							<img src="star.png" alt="purple star">
+							<img src="star.png" alt="purple star">
+							<img src="star.png" alt="purple star">
+							<img src="whitestar.png" alt="white star">
+						</div>
+						<p class="time">
+							8 min
+						</p>
+					</div>
+				</div>
                 <!-- Video Block 4 -->
-                <div>
-                    <img src="" alt="Video 4">
-                    <h2>Title</h2>
-                    <p>Text</p>
-                </div>
-            </div>
+                <div class="video-box-4">
+					<img src="video4.png" alt="man picture" class="video-mini">
+					<h2>
+						Happy Smile
+					</h2>
+					<p class="description">
+						Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.
+					</p>
+					<div class="video-box-4-middle">
+						<img src="avatar-videos.png" alt="man picture">
+						<h3>
+							Phillip Massey
+						</h3>
+					</div>
+					<div class="video-box-4-bottom">
+						<div class="rating">
+							<img src="star.png" alt="purple star">
+							<img src="star.png" alt="purple star">
+							<img src="star.png" alt="purple star">
+							<img src="star.png" alt="purple star">
+							<img src="whitestar.png" alt="white star">
+						</div>
+						<p class="time">
+							8 min
+						</p>
+					</div>
+				</div>
+			</div>
+            </section>
+			
 
-            <!-- Author Information -->
-            <div>
-                <img src="" alt="Author">
-                <h3>Author Name</h3>
-            </div>
-
-            <!-- Rating Block -->
-            <div>
-                <div>
-                    <img src="star.png" alt="Star">
-                    <img src="star.png" alt="Star">
-                </div>
-                <p>Rating Text</p>
-            </div>
-        </section>
+           
 
         <!-- Membership Section -->
-        <section>
-            <h1>Membership Plans</h1>
-            <!-- Block Containing 4 Items -->
-            <div>
-                <div>
-                    <img src="" alt="Plan 1">
-                    <h2>Plan 1</h2>
-                    <p>Description</p>
-                </div>
-                <div>
-                    <img src="" alt="Plan 2">
-                    <h2>Plan 2</h2>
-                    <p>Description</p>
-                </div>
-                <div>
-                    <img src="" alt="Plan 3">
-                    <h2>Plan 3</h2>
-                    <p>Description</p>
-                </div>
-                <div>
-                    <img src="" alt="Plan 4">
-                    <h2>Plan 4</h2>
-                    <p>Description</p>
-                </div>
-            </div>
-            <button>Sign Up</button>
-        </section>
-
+        <section id="membership">
+			<h1>
+				<span>Free</span> membership
+			</h1>
+			<div class="membership-container">
+				<div class="membership-box">
+					<img src="smiley.png" alt="smiley">
+					<h2>
+						Lorem Ipsum
+					</h2>
+					<p>
+						Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.
+					</p>
+				</div>
+				<div class="membership-box">
+					<img src="smiley.png" alt="smiley">
+					<h2>
+						Lorem Ipsum
+					</h2>
+					<p>
+						Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.
+					</p>
+				</div>
+				<div class="membership-box">
+					<img src="smiley.png" alt="smiley">
+					<h2>
+						Lorem Ipsum
+					</h2>
+					<p>
+						Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.
+					</p>
+				</div>
+				<div class="membership-box">
+					<img src="smiley.png" alt="smiley">
+					<h2>
+						Lorem Ipsum
+					</h2>
+					<p>
+						Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.
+					</p>
+				</div>
+			</div>
+			<button>
+				REGISTER FOR FREE
+			</button>
+		</section>
         <!-- FAQ Section -->
-        <section>
-            <h1>Frequently Asked Questions</h1>
-            <!-- FAQ Blocks -->
-            <div>
-                <!-- Row 1 -->
-                <div>
-                    <div>
-                        <h2>Question 1</h2>
-                        <p>Answer 1</p>
-                    </div>
-                    <div>
-                        <h2>Question 2</h2>
-                        <p>Answer 2</p>
-                    </div>
-                </div>
-                <!-- Row 2 -->
-                <div>
-                    <div>
-                        <h2>Question 3</h2>
-                        <p>Answer 3</p>
-                    </div>
-                    <div>
-                        <h2>Question 4</h2>
-                        <p>Answer 4</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <section id="FAQ">
+			<h1>
+				F.A.Q.
+			</h1>
+			<div class="FAQ-container">
+				<div class="row">
+					<div class="item">
+						<h2>
+							How does this work?
+						</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+							magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+							Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+					</div>
+					<div class="item">
+						<h2>
+							How does this work?
+						</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+							magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+							Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="item">
+						<h2>
+							How does this work?
+						</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+							magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+							Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+					</div>
+					<div class="item">
+						<h2>
+							How does this work?
+						</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+							magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+							Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
     </main>
     <!-- End Main Section -->
 
     <!-- Footer -->
     <footer>
-        <div>
-            <!-- Footer Logo -->
-            <div>
-                <img src="" alt="Footer Logo">
-            </div>
-            <!-- Social Links -->
-            <div>
-                <a href="#"><img src="" alt="Social 1"></a>
-                <a href="#"><img src="" alt="Social 2"></a>
-                <a href="#"><img src="" alt="Social 3"></a>
-            </div>
-            <p>Footer Text</p>
-        </div>
-    </footer>
+		<div>
+			<div class="footer-container">
+				<img src="smileschoolalpha.png" alt="logo" class="footer-logo">
+				<div class="logos">
+					<a href="https://www.holbertonschool.com">
+						<img src="facebook.png" alt="facebook logo">
+					</a>
+					<a href="https://www.holbertonschool.com">
+						<img src="twitter.png" alt="twitter logo">
+					</a>
+					<a href="https://www.holbertonschool.com">
+						<img src="instagram.png" alt="instagram logo">
+					</a>
+				</div>
+			</div>
+			<p>
+				©smileschool 2020
+			</p>
+		</div>
+	</footer>
+</div>
 </body>
 </html>
